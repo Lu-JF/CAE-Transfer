@@ -2,7 +2,7 @@
 In this project, a convolutinal auto-encoder based unsupervised learning and its transfer learning are built  
   
 ## Citation
-The code is a recurrence privately, and the reproduced paper is:  
+The code is a private recurrence rather than an official code, and the reproduced paper is:  
 M. Xia, H. Shao, Z. Huang, Z. Zhao, F. Jiang and Y. Hu,   
 "Intelligent Process Monitoring of Laser-Induced Graphene Production With Deep Transfer Learning",  
 IEEE Transactions on Instrumentation and Measurement, vol. 71, pp. 1-9, 2022, Art no. 3516409,   
@@ -26,18 +26,19 @@ The code is used for unsupervised learning and transfer learning according to th
 is not provided because of some reasons, but the dataset form adapted this code is given:  
 1) the dataset should be composed of picture;  
 2) the directory of dataset should submit to the following structure, or correcting the code:   
-dataset   
-└---source   
-----└---unlabeled   
------------└Train   
------------└Valid   
------------└Test   
-----└---labeled   
------------└Train   
-└---target   
-----└---Train   
-----└---Valid   
-----└---Test   
+-dataset   
+|└---source   
+|----└---unlabeled   
+|-----------└Train   
+|-----------└Valid   
+|-----------└Test   
+|----└---labeled   
+|-----------└Train   
+|└---target   
+|----└---Train   
+|----└---Valid   
+|----└---Test   
    
-## Test_and_Plot.py  
-
+## Test_and_Plot.py   
+The code is used for testing model and plotting the confusion matrix you. The model file must be existing   
+before you running the code.
