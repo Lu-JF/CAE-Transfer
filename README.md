@@ -17,27 +17,27 @@ Scikit-learn>=0.24.1
 matplotlib>=3.3.4   
  
 ## Nets.py 
-The code is used for buliding the network to be trained, including Convolutional Auto-Encoder (CAE), 
-Enhanced Convolutional Neural Network (ECNN) which is same with the paper. The every models will be 
-built and compile, to test with default parameters.
- 
+The code is used for buliding the network to be trained, including Convolutional Auto-Encoder (CAE),   
+Enhanced Convolutional Neural Network (ECNN) which is same with the paper. The every models will be   
+built and compile, to test with default parameters.  
+   
 ## Transfer.py 
-The code is used for unsupervised learning and transfer learning according to the paper. The dataset 
-is not provided because of some reasons, but the dataset form adapted this code is given:
-1) the dataset should be composed of picture;
-2) the directory of dataset should submit to the following structure, or correcting the code: 
-dataset 
-└───source 
-|   └───unlabeled 
-|   |   └───Train 
-|   |   └───Valid 
-|   |   └───Test 
-|   └───labeled 
-|       └─── Train 
-└───target 
-    └───Train 
-    └───Valid 
-    └───Test 
- 
+The code is used for unsupervised learning and transfer learning according to the paper. The dataset   
+is not provided because of some reasons, but the dataset form adapted this code is given:  
+1) the dataset should be composed of picture;  
+2) the directory of dataset should submit to the following structure, or correcting the code:   
+dataset   
+└───source   
+|   └───unlabeled   
+|   |   └───Train   
+|   |   └───Valid   
+|   |   └───Test   
+|   └───labeled   
+|       └─── Train   
+└───target   
+    └───Train   
+    └───Valid   
+    └───Test   
+   
 ## Test_and_Plot.py  
 
