@@ -28,16 +28,16 @@ is not provided because of some reasons, but the dataset form adapted this code 
 2) the directory of dataset should submit to the following structure, or correcting the code:   
 dataset   
 └───source   
-|   └───unlabeled   
-|   |   └───Train   
-|   |   └───Valid   
-|   |   └───Test   
-|   └───labeled   
-|       └─── Train   
+|---└───unlabeled   
+|---|---└───Train   
+|---|---└───Valid   
+|---|---└───Test   
+|---└───labeled   
+|-------└─── Train   
 └───target   
-    └───Train   
-    └───Valid   
-    └───Test   
+----└───Train   
+----└───Valid   
+----└───Test   
    
 ## Test_and_Plot.py  
 
