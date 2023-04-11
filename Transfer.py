@@ -10,7 +10,6 @@ from Nets import SCAE, ECNN
 import matplotlib.pyplot as plt
 import numpy as np
 
-
 img_size = 128
 class_num = 5
 BATCH_SIZE = 64
@@ -76,7 +75,6 @@ def dataset_create(path, mode):
         class_mode=mode)
     return data_generator
 
-
 def model_train(model, data_train, data_valid, ifsave=False, save_name='model.h5'):
     #模型训练
     #model:          Model, 完成编译的keras模型
@@ -126,7 +124,6 @@ def first_transfer(scae):
     pre_ecnn, H_pre_ecnn = model_train(pre_ecnn, source_data_labeled_train, source_data_labeled_valid, ifsave=True, save_name='pre_ecnn.h5')  
     return pre_ecnn, H_pre_ecnn
     
-
 def second_transfer(pre_ecnn):
     target_data_train = dataset_create(target_train_path, mode = 'categorical')
     target_data_valid = dataset_create(target_valid_path, mode = 'categorical')
