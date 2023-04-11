@@ -26,7 +26,7 @@ The code is used for unsupervised learning and transfer learning according to th
 is not provided because of some reasons, but the dataset form adapted this code is given:  
 1) the dataset should be composed of picture;  
 2) the directory of dataset should submit to the following structure, or correcting the code:   
--dataset   
+.root  
 |└---source   
 |----└---unlabeled   
 |-----------└Train   
