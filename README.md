@@ -42,5 +42,5 @@ Besides, the training and loss curve is samply plotting in the code, in order to
 effect expediently.    
    
 ## Test_and_Plot.py   
-The code is used for testing model and plotting the confusion matrix you. The model file must be existing   
+The code is used for testing the models and plotting the confusion matrix. The model file must be existing   
 before you running the code.
