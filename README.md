@@ -38,6 +38,8 @@ is not provided because of some reasons, but the dataset form adapted this code 
 |----└---Train   
 |----└---Valid   
 |----└---Test   
+Besides, the training and loss curve is samply plotting in the code, in order to observe the training   
+effect expediently.    
    
 ## Test_and_Plot.py   
 The code is used for testing model and plotting the confusion matrix you. The model file must be existing   
