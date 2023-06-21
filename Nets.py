@@ -93,7 +93,7 @@ def ECNN(input_size, out_num, para):
         net_input = MaxPooling2D(pool_size=(3, 3), strides=2, padding='same')(net_input)
     net_input = Flatten()(net_input)
     net_input = Dense(100)(net_input)
-    model_out= Dense(out_num)(net_input)
+    model_out= Dense(out_num, activation='softmax')(net_input)
     model = Model(inputs=model_input, outputs = model_out)
     return model
     
